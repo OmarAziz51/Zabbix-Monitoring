@@ -1,0 +1,10 @@
+[zabbix_clients]
+omdb01 ansible_host=10.10.10.70
+ommc01 ansible_host=10.10.10.71
+omrmq01 ansible_host=10.10.10.72
+omapp01 ansible_host=10.10.10.73
+omweb01 ansible_host=10.10.10.74
+
+[zabbix_clients:vars]
+ansible_user=cloudvc
+ansible_python_interpreter=/usr/bin/python3
